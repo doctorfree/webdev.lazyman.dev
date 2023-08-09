@@ -18,21 +18,23 @@ timezone: America/Los_Angeles
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Starter # the main title
+title: Neovim Webdev # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 💤 LazyVim web development config for Neovim
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A Neovim configuration based on LazyVim and designed for web development.
+  This Neovim configuration is one of the supported Lazyman configs
+  and includes a menu driven configuration interface using lazyman.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
 
 github:
-  username: doctorfree # change to your github username
+  username: doctorfree/nvim-webdev
 
 twitter:
-  username: ronrecord # change to your twitter username
+  username: ronrecord
 
 social:
   name: Ronald Record
@@ -89,23 +91,25 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo-name>
-    repo_id: # The repository node id, find it with "gh api repos/${repo} | jq '.node_id'"
-    category: # The repo discussion category for comments, e.g. General
-    category_id: # This is the hardest thing to find. Use the following script:
-                 # gh api graphql -f query='
-                 # {
-                 #   repository(owner: "<gh-username>", name: "<repo-name>") {
-                 #     id
-                 #     name
-                 #     discussionCategories(first: 10) {
-                 #       nodes {
-                 #         id
-                 #         name
-                 #       }
-                 #     }
-                 #   }
-                 # }'
+    repo: doctorfree/webdev.lazyman.dev
+    repo_id: R_kgDOKFUhpw # The repository node id, find it with "gh api repos/${repo} | jq '.node_id'"
+    category: General # The repo discussion category for comments, e.g. General
+    category_id:
+      DIC_kwDOKFUhp84CYfdU
+      # This is the hardest thing to find. Use the following script:
+      # gh api graphql -f query='
+      # {
+      #   repository(owner: "<gh-username>", name: "<repo-name>") {
+      #     id
+      #     name
+      #     discussionCategories(first: 10) {
+      #       nodes {
+      #         id
+      #         name
+      #       }
+      #     }
+      #   }
+      # }'
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
