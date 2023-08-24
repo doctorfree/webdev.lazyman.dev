@@ -7,8 +7,9 @@ order: 10
 # 💤 LazyVim web development config for Neovim
 
 **[Note:]** This Neovim configuration is based on the starter template at
-<https://github.com/jellydn/nvim-for-webdev> and is extensively enhanced for
-use with [Lazyman](https://github.com/doctorfree/nvim-lazyman).
+[https://github.com/jellydn/nvim-for-webdev](https://github.com/jellydn/nvim-for-webdev){:target="_blank"}{:rel="noopener noreferrer"}
+and is extensively enhanced for
+use with [Lazyman](https://lazyman.dev).
 
 <a href="https://dotfyle.com/doctorfree/nvim-webdev"><img src="https://dotfyle.com/doctorfree/nvim-webdev/badges/plugins?style=flat" /></a>
 <a href="https://dotfyle.com/doctorfree/nvim-webdev"><img src="https://dotfyle.com/doctorfree/nvim-webdev/badges/leaderkey?style=flat" /></a>
@@ -25,15 +26,15 @@ and a shell function to fuzzy search and select among them.
 
 👤 **Ronald Joe Record**
 
-- Website: <https://ronrecord.com/>
-- Twitter: [@ronrecord](https://twitter.com/ronrecord)
-- Github: [@doctorfree](https://github.com/doctorfree)
+- Website: [ronrecord.com](https://ronrecord.com/){:target="_blank"}{:rel="noopener noreferrer"}
+- Twitter: [@ronrecord](https://twitter.com/ronrecord){:target="_blank"}{:rel="noopener noreferrer"}
+- Github: [@doctorfree](https://github.com/doctorfree){:target="_blank"}{:rel="noopener noreferrer"}
 
 👤 **Huynh Duc Dung**
 
-- Website: <https://productsway.com/>
-- Twitter: [@jellydn](https://twitter.com/jellydn)
-- Github: [@jellydn](https://github.com/jellydn)
+- Website: [productsway.com](https://productsway.com/){:target="_blank"}{:rel="noopener noreferrer"}
+- Twitter: [@jellydn](https://twitter.com/jellydn){:target="_blank"}{:rel="noopener noreferrer"}
+- Github: [@jellydn](https://github.com/jellydn){:target="_blank"}{:rel="noopener noreferrer"}
 
 <div align="center">
   <h2 id="connect">Connect</h2>
