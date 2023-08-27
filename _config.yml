@@ -28,7 +28,10 @@ description: >- # used by seo meta and the atom feed
   and includes a menu driven configuration interface using lazyman.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://webdev.lazyman.dev"
+
+plugins:
+  - jekyll-sitemap
 
 github:
   username: doctorfree/nvim-webdev
