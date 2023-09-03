@@ -33,6 +33,11 @@ management of Neovim configurations include:
 The `webdev_config.sh` script is installed in `~/.config/nvim-Lazyman/scripts/`.
 
 This script is used to display the `Webdev` configuration sub-menus in `lazyman`.
+Webdev Neovim configuration settings are managed via this menu by invoking the
+[get_conf.lua script](https://webdev.lazyman.dev/configuration). This script
+leverages a new feature in Neovim 0.9+ which enables command line execution
+of Neovim to read and execute a Lua script in the runtime environment. See the
+[Configuration section](https://webdev.lazyman.dev/configuration) for more info.
 
 The source code for the `webdev_config.sh` script:
 
