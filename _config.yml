@@ -20,7 +20,7 @@ timezone: America/Los_Angeles
 
 title: Neovim Webdev # the main title
 
-tagline: 💤 LazyVim web development config for Neovim
+tagline: LazyVim web development config for Neovim
 
 description: >- # used by seo meta and the atom feed
   A Neovim configuration based on LazyVim and designed for web development.
